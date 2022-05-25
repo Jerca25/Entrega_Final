@@ -4,3 +4,43 @@
     box-sizing: border-box;
 }
 
+
+/*Style para el header*/
+.flexContainerHead {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1300px;
+    height:auto;
+    background-color: #828282;
+    
+}
+
+#logo {
+    width: 30%;
+}
+.nav_header {
+    padding-top: 50px;
+}
+
+.nav_header,li {
+    width: 60%;
+    padding-left: 90px;
+    display: inline;
+    justify-content: space-around;
+}
+
+#login{
+    width: 10%;
+    text-decoration: none;
+    padding:40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 3px;
+    border: 2px solid #0016b0;
+}
+
+
+section {float: left;}
+footer {float: left;}
