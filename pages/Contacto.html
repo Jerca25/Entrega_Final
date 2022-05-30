@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../Assets/css/Main.css">
+    <link href="./../Assets/Css/bootstrap.min.css" rel="stylesheet">
+    
+    <style> 
+        #fondo{background-image: url(./../assets/img/Fondo_Pagina.jpg);}
+        .contacto { text-align: center;
+        }
+       </style>
+    <title>Contacto</title>
+</head>
+<body class="container-md text-light" id="fondo">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+     <div class="container-fluid">
+         <a class="navbar-brand col-4" href="#">
+             <img src="./../assets/img/Logo_Pagina.png" alt="Logo_Pagina" width="130">
+         </a>
+         <button class="navbar-toggler"
+             type="button"
+             data-toggle="collapse"
+             data-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent"
+             aria-expanded="false"
+             aria-label="Toogle navigation">
+                 <span class="navbar-toggler-icon        "></span>
+         </button>
+         <div class="collapse navbar-collapse " id="navbarSupportedContent">
+             <ul class="navbar-nav mc-auto ">
+                 <li class="nav-item"> <a class="nav-link" href="./../Index.html">Inicio</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="./NuestroMenu.html">Nuestro Menu</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="#">Ubicaciones</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="#">Rewards</a></li>
+             </ul>
+         </div>
+         <div class="collapse navbar-collapse col-5" id="navbarSupportedContent">
+             <ul class="navbar-nav ml-auto">
+                 <button type="button" class="btn btn-secondary">
+                     <li class="nav-item"> <a class="nav-link" href="./Contacto.html">Contacto</a></li>
+                 </button>
+             </ul>
+         </div>
+     </div>
+
+     </nav>
+    <section class="GridPadreSection_Index">
+        <div class="contacto  pt-5 ">
+            <div class="Titulo">
+            <H1>Dejanos tus datos y un asesor se comunicara contigo</H1>
+            </div>
+            <form action="" method="get">
+            
+                <div class="Formulario">
+            
+                    <label for="Nombre">Nombre</label> 
+                    <input type="Text" id="Nombres">
+                
+                </div>
+
+                <div class="Formulario">   
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="Text" id="Apellidos">
+                </div>
+
+                <div class="Formulario">
+                    <label for="Correo Electronico">Correo Electronico</label>
+                    <input type="text" id="Correo Electronico">
+                </div>
+
+                <div class="Formulario">
+                    <label for="Telefono">Telefono</label>
+                    <input type="tel" id="Telefono">
+                </div>
+
+                <div class="Formulario">
+                    <label for="Fecha Nacimiento"> Fecha Nacimiento</label>
+                    <input type="date" id="Fecha Nacimiento">
+
+                </div>
+            
+                <div class="Formulario">
+                    <label for="Ciudad">¿De que ciudad eres?</label>
+                    <select name="text" id="Ciudad">
+                        <option value="Cali">Cali</option>
+                        <option value="Bogota">Bogota</option>
+                        <option value="Medellin">Medellin</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Cucuta">Cucuta</option>
+                    </select>
+                </div>
+
+                <div class="Formulario">
+                    <label for="Edad" >Edad</label>
+                    <input type="number" id="Edad">
+                </div>
+
+                <div class="Formulario">
+                    <input type="button" id="Sinfunción" value="No hacer nada">
+                    <input type="Reset" id="botonlimpiar" value="Limpiar">
+                    <input type="submit" id="botonenviar" value="Enviar" >
+                </div>
+        </div>
+    </section>
+</body>
+</html>
