@@ -1,7 +1,7 @@
 
    #ribbon {
         background-color: #330000;
-        background-image: repeating-linear-gradient(45deg, transparent, transparent 25px,  #b3b3b3 25px, #b3b3b3 40px);
+        background-image: repeating-linear-gradient(45deg, transparent, transparent 25px,  #000000 25px, #000000 40px);
     }
     
     #ribbon::after {
@@ -23,6 +23,9 @@
         z-index: 10;
         box-shadow: 0 0 10px rgba(0,0,0,0);
     }
+    .header .navbar {
+        background-color: transparent !important;
+      }
     #instagram img {
         position: relative;
         margin-top: -30px;
@@ -42,4 +45,57 @@
         border-bottom-right-radius: 50%;
     }
 
-    
+    .menu__padre {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .menu__padre h1 {
+          color: aliceblue;
+      }
+      .menu__padre h2 {
+          color: aliceblue;
+      } 
+      .menutitulo {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          text-align: center;
+          border: 5px;
+          border-style:dotted;
+          border-color: rgba(66, 8, 8, 0.493);
+      }
+      .menu_general {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content:space-around;
+          padding-top: 100px;
+      }
+      
+      .entradas {
+          padding: 20px;
+          border: 5px;
+          border-style:double;
+          border-color: rgba(66, 8, 8, 0.493);
+      }
+      .hot_dogs {
+          padding: 20px;
+          border: 5px;
+          border-style:double;
+          border-color: rgba(66, 8, 8, 0.493);
+      }
+      .hamburguesas {
+          padding: 20px;
+          border: 5px;
+          border-style:double;
+          border-color: rgba(66, 8, 8, 0.493);
+      }
+      .ensaladas {
+          padding: 20px;
+          border: 5px;
+          border-style:double;
+          border-color: rgba(66, 8, 8, 0.493);
+          margin-top: 15px;
+      }
